@@ -1,0 +1,70 @@
+/* 
+lightblue: #66FCF1
+lightgrey: #C5C6C7
+teal: #45A29E
+darkblue: #1F2388
+black: #0B0C10
+*/
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+body {
+    background-color: #0B0C10;
+    text-align: center;
+    font-family: 'Courgette', sans-serif;
+}
+
+a:link,
+a:visited {
+    color:  #C5C6C7;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgba(197, 198, 199, 0.5);
+}
+
+h1 {
+    color:  #66FCF1;
+    font-size: 50px;
+}
+
+h2 {
+    color: #45A29E;
+    font-size: 2em;
+}
+p {
+    color:  #C5C6C7;
+    font-size: 1.5em;
+}
+
+#copyright {
+    color:  rgb(49, 49, 49)
+}
+
+#jayhong{
+    font-size: 1000%
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 2em;
+    
+}
+
+section {
+    padding: 5% 15% 5% 15%;
+    
+}
+
+section a {
+    font-size: 2em;
+}
+
+footer {
+    font-size: 0.75em;
+}
+
+
+
