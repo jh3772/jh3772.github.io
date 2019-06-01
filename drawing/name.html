@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <script>
+        var canvas;
+        var ctx; // Context: The dimension of your canavs
+        const UNIT = 30;
+        window.onload = init; // When the window is loaded, call the init function.
+        function init() { // Function: Ste if commands that could be called. (action)
+            canvas = document.getElementById("myCanvas");// Linkinh JS canvas to HTML canvas
+            ctx = canvas.getContext("2d"); // Setting ctx to be 2D
+            // ctx.fillRect(0,0,100,100); // Filling in a rectangle with x & y position and w & h lengths
+            // HOMEWORKS NOTES and NAME 
+            drawName();
+        }
+
+       
+    </script>
+    <script src="drawName.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Name</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Homepage</a>
+        <a href="drawing.html">Drawing</a>
+    </nav>
+    <section>
+        <canvas id="myCanvas" height="500" width="800"></canvas>
+    </section>
+    <footer>
+        <p>&copy; 2019</p>
+    </footer>
+
+</body>
+
+</html>

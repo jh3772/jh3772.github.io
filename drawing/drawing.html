@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <script>
+        var canvas;
+        var ctx; 
+        const UNIT = 30;
+        window.onload = init; // When the window is loaded, call the init function.
+        function init() { // Function: Ste if commands that could be called. (action)
+            canvas = document.getElementById("myCanvas");// Linking JS canvas to HTML canvas
+            ctx = canvas.getContext("2d"); // Setting ctx to be 2D
+            // ctx.fillRect(0,0,1000,100); // Filling in a rectangle with x & y position and w & h lengths
+          
+            // drawWalkingKirby(1);
+            // drawStandingKirby(2);
+        }
+        
+       
+    </script>
+    <script src="drawKirby.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Drawing</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Homepage</a>
+        <a href="name.html">Name</a>
+    </nav>
+    <section>
+        <canvas id="myCanvas" height="500" width="800"></canvas>
+    </section>
+    <footer>
+        <p>&copy; 2019</p>
+    </footer>
+
+</body>
+
+</html>
